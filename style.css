@@ -35,10 +35,8 @@ body {
     transition: max-height 1s ease;
     padding-left: 1em;
     padding-right: 1em;
-    /* Adicionamos uma transição mais rapida ao fechar */
 }
 .accordion-item.active .accordion-content {
     max-height: 500px;
     transition: max-height 2.5s ease-out;
-    /* Adicionamos uma transição mais lenta ao abrir */
 }
